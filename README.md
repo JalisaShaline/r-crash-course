@@ -1,37 +1,44 @@
-## Welcome to GitHub Pages
+# R Crash Course for Bioinformatics - Werk in uitvoering
 
-You can use the [editor on GitHub](https://github.com/bioinformatics-core-shared-training/r-crash-course/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Over dit project
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Deze repository is bedoeld als basis voor het ontwikkelen van een crash course in de programmeertaal R, gericht op de bioinformatica. De cursus zal uitleg bevatten, oefeningen, voorbeelddata en visualisaties.
 
-### Markdown
+Dit project bevindt zich momenteel in opbouw. De bestanden zijn gestructureerd in overzichtelijke mappen, maar de inhoud moet nog worden verder worden aangevuld, herschreven of verbeterd.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Doel
 
-```markdown
-Syntax highlighted code block
+Het uiteindelijke doel is om:
+- Een toegankelijke crash course te bieden voor beginners in R
+- Basisvaardigheden in dataverwerking, visualisatie en statistiek aan te leren
+- Specifieke toepassingen binndne de bioinformativa inzichtelijk maken
 
-# Header 1
-## Header 2
-### Header 3
+## Structuur van deze repository
+- `scripts/` - R-scripts en RMarkdown-bestanden (handleiding + oefeningen)
+- `data/` - datasets die gebruikt worden voor de oefeningen
+- `results/` - gegenereerde output (plots, rapporten)
+- `docs/` - extra documentatie
+- `images/` - afbeeldingen voor gebruik in uitleg of rapporten)
 
-- Bulleted
-- List
+## Huidige status
 
-1. Numbered
-2. List
+Deze repository is opnieuw gestructureerd o overzichtelijker te worden:
+- Bestanden zijn gesorteerd in logische mappen
+- Overbodige bestanden (zoals ZIP's) zijn verwijderd
+- De folderstructuur is verbeterd
 
-**Bold** and _Italic_ and `Code` text
+De `.Rmd`-bestanden en het script zijn nog **niet foutloos uitvoerbaar**:
+- Enkele bestanden geven foutmeldingen zoals `invalid argument to unary operator`
+- De code moet nog worden nagekeken, getest en waar nodig aangepast of herschreven 
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Voor wie is dit project?
 
-### Jekyll Themes
+- Voor iedereen die wil leren werken met R in een bioinformatia-context
+- Voor iedereen die wil bijdragen aan deze crash course
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bioinformatics-core-shared-training/r-crash-course/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Suggesties voor verdere ontwikkeling
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- Controleren en verbeteren van foutmeldingen in `.Rmd`-bestanden
+- Testen welke data nodig is voor gebruikers, e nwelke alleen voor de cursusontwikkeling
+- Eventueel uitbreiden van de uitleg en opdrachten
