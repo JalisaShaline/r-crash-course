@@ -16,13 +16,16 @@ Het uiteindelijke doel is om:
 ## Structuur van deze repository
 - `scripts/` - R-scripts en RMarkdown-bestanden (handleiding + oefeningen)
 - `data/` - datasets die gebruikt worden voor de oefeningen
+  Let op: dit bevat ook een bestand met patiëntdata (patient-data-cleaned.txt), dat vermoedelijk fictief is en bedoeld is voor educatieve doeleinden.
+  Omdat dit niet wordt vermeld in de oorspronkelijke repository, is er zorgvuldig mee omgegaan. 
+  Gebruikers worden geadviseerd om bij hergebruik alert te zijn.
 - `results/` - gegenereerde output (plots, rapporten)
 - `docs/` - extra documentatie
 - `images/` - afbeeldingen voor gebruik in uitleg of rapporten)
 
 ## Huidige status
 
-Deze repository is opnieuw gestructureerd o overzichtelijker te worden:
+Deze repository is opnieuw gestructureerd overzichtelijker te worden:
 - Bestanden zijn gesorteerd in logische mappen
 - Overbodige bestanden (zoals ZIP's) zijn verwijderd
 - De folderstructuur is verbeterd
